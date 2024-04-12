@@ -1,0 +1,16 @@
+code:
+    - link: https://github.com/open-compass/DevBench
+      title: DevBench
+      authors: Bowen Li, Wenhan Wu, Ziwei Tang, Lin Shi, Chao Peng, He Du
+      abstract: DevBench is a comprehensive benchmark for software development.
+      image: /images/devbench.png
+    - link: https://github.com/OpenBMB/AgentVerse
+      title: AgentVerse
+      authors: Weize Chen, Yusheng Su, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chi-Min Chan, Heyang Yu, Yaxi Lu, Yi-Hsin Hung, Chen Qian, Yujia Qin, Xin Cong, Ruobing Xie, Zhiyuan Liu, Maosong Sun, Jie Zhou, Bowen Li, Ziwei Tang
+      abstract: Agent Verse is a multi-agent framework to facilitate the deployment of multiple LLM-based agents 
+      image: /images/agentverse.png
+    - link: https://github.com/OpenBMB/BMTools
+      title: BMTools
+      authors: Yujia Qin, Shengding Hu, Yankai Lin, Weize Chen, Ning Ding, Ganqu Cui, Zheni Zeng, Yufei Huang, Chaojun Xiao, Chi Han, Yi Ren Fung, Yusheng Su, Huadong Wang, Cheng Qian, Runchu Tian, Kunlun Zhu, Shi Liang, Xingyu Shen, Bokai Xu, Zhen Zhang, Yining Ye, Bo Li, Ziwei Tang, Jing Yi, Yu Zhu, Zhenning Dai, Lan Yan, Xin Cong, Ya-Ting Lu, Weilin Zhao, Yuxiang Huang, Jun-Han Yan, Xu Han, Xian Sun, Dahai Li, Jason Phang, Cheng Yang, Tongshuang Wu, Heng Ji, Zhiyuan Liu, Maosong Sun
+      abstract: BMTools is an open-source repository that extends language models using tools and serves as a platform for the community to build and share tools.
+      image: /images/toollearning.png

@@ -1,0 +1,6 @@
+projects:
+    - link: https://github.com/OpenBMB/AgentVerse
+      title: AgentVerse
+      authors: Weize Chen, Yusheng Su, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chi-Min Chan, Heyang Yu, Yaxi Lu, Yi-Hsin Hung, Chen Qian, Yujia Qin, Xin Cong, Ruobing Xie, Zhiyuan Liu, Maosong Sun, Jie Zhou, Bowen Li, Ziwei Tang
+      abstract: Agent Verse is a multi-agent framework to facilitate the deployment of multiple LLM-based agents 
+      image: /images/agentverse.png
