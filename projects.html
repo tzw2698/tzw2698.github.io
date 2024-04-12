@@ -1,0 +1,59 @@
+---
+layout: page
+title: Projects
+weight: 2
+permalink: /projects/
+show: 1
+---
+<h3>Projects</h3>
+
+
+<p>
+  These are some of the open-source projects I work on.
+  
+
+</p>
+
+<table>
+{% for project in site.data.projects.projects %}
+  <tr><td style="padding:10px;width:200px;">
+{% if project.image %}<a class="paper" href="{{project.link}}"><img width="200px" src="{{project.image}}"> </a>{% endif %}
+</td><td style="padding:10px">
+<a class="paper" href="{{project.link}}">
+{{project.title}}
+</a><br>
+{{project.abstract}}<br>
+{% if project.link %}<a class="icon pdf label label-info" href="{{project.link}}">github</a> {% endif %}
+{% if project.data %}<a class="icon pdf label label-success" href="{{project.data}}">data</a> {% endif %}
+{% if project.pdf %}<a class="icon pdf label label-info" href="{{project.pdf}}">pdf</a> {% endif %}
+{% if project.models %}<a class="icon slides label label-warning" href="{{project.models}}">models</a>{% endif %}
+{% if project.code %} <a class="icon slides label label-success label-warning" href="{{project.code}}">code</a>{% endif %}
+
+
+<br>
+
+</td></tr>
+
+{% endfor %}
+</table>
+
+<div class="project-section">
+<a class="project" href="https://github.com/OpenBMB/AgentVerse">AgentVerse: LLM-based agents frameworkd for various applications</a>.<br>
+<a class="name">Weize Chen</a>
+<a class="name">Yusheng Su</a>
+<a class="name">Jingwei Zuo</a>
+<a class="name">Cheng Yang</a>
+<a class="name">Chenfei Yuan</a>
+<a class="name">Chi-Min Chan</a>
+<a class="name">Heyang Yu</a>
+<a class="name">Yaxi Lu</a>
+<a class="name">Yi-Hsin Hung</a>
+<a class="name">Chen Qian</a>
+<a class="name">Yujia Qin</a>
+<a class="name">Xin Cong</a>
+<a class="name">Ruobing Xie</a>
+<a class="name">Jie Zhou</a>
+<a class="name">Bowen Li</a>
+<a class="name">Ziwei Tang</a>.
+<br>
+</div>

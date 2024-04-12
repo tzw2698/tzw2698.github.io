@@ -1,0 +1,110 @@
+---
+layout: page
+title: Publications
+permalink: /papers/
+weight: 4
+show: 1
+---
+
+<h3>Papers</h3>
+
+
+
+<p>
+These are some of preprint papers I worked on.
+  
+</p>
+<table>
+{% for paper in site.data.papers.papers %}
+
+  <tr><td style="padding:10px">
+      {% if paper.image %}
+      <a href="{{paper.pdf}}"><img width="200px" style="min-width:150px" src="{{paper.image}}"></a>
+      {% else %}
+      <a href="{{paper.pdf}}"><img height="75px" style="min-width:150px" src="https://avatar.vercel.sh/{{paper.title}}"></a>
+      {% endif %}
+</td><td style="padding:10px">
+<a class="paper" href="{{paper.pdf}}">
+{{paper.title}}
+</a><br>
+{{paper.authors}}.<br>
+{{paper.conference}} <br>
+
+<br>
+
+</td></tr>
+
+{% endfor %}
+</table>
+
+
+<div class="paper-section">
+<a class="paper" href="papers/devbench.pdf">
+DevBench: A Comprehensive Benchmark for Software Development
+</a><br>
+<a class="name">Bowen Li</a>
+<a class="name">Wenhan Wu</a>
+<a class="name">Ziwei Tang</a>
+<a class="name">Lin Shi</a>
+<a class="name">John Yang</a>
+<a class="name">Jinyang Li</a>
+<a class="name">Shunyu Yao</a>
+<a class="name">Chen Qian</a>
+<a class="name">Binyuan Hui</a>
+<a class="name">Qicheng Zhang</a>
+<a class="name">Zhiyin Yu</a>
+<a class="name">He Du</a>
+<a class="name">Ping Yang</a>
+<a class="name">Dahua Lin</a>
+<a class="name">Chao Peng</a>
+<a class="name">Kai Chen</a>.<br>
+In submission <br><a class="icon pdf label label-info" href="devbench.pdf">pdf</a>
+</div>
+
+<div class="paper-section">
+<a class="paper" href="papers/toollearning.pdf">
+Tool Learning with Foundation Models
+</a><br>
+<a class="name">Yujia Qin</a>
+<a class="name">Shengding Hu</a>
+<a class="name">Yankai Lin</a>
+<a class="name">Weize Chen</a>
+<a class="name">Ning Ding</a>
+<a class="name">Ganqu Cui</a>
+<a class="name">Zheni Zeng</a>
+<a class="name">Yufei Huang</a>
+<a class="name">Chaojun Xiao</a>
+<a class="name">Chi Han</a>
+<a class="name">Yi Ren Fung</a>
+<a class="name">Yusheng Su</a>
+<a class="name">Huadong Wang</a>
+<a class="name">Cheng Qian</a>
+<a class="name">Runchu Tian</a>
+<a class="name">Kunlun Zhu</a>
+<a class="name">Shi Liang</a>
+<a class="name">Xingyu Shen</a>
+<a class="name">Bokai Xu</a>
+<a class="name">Zhen Zhang</a>
+<a class="name">Yining Ye</a>
+<a class="name">Bo Li</a>
+<a class="name">Ziwei Tang</a>
+<a class="name">Jing Yi</a>
+<a class="name">Yu Zhu</a>
+<a class="name">Zhenning Dai</a>
+<a class="name">Lan Yan</a>
+<a class="name">Xin Cong</a>
+<a class="name">Ya-Ting Lu</a>
+<a class="name">Weilin Zhao</a>
+<a class="name">Yuxiang Huang</a>
+<a class="name">Jun-Han Yan</a>
+<a class="name">Xu Han</a>
+<a class="name">Xian Sun</a>
+<a class="name">Dahai Li</a>
+<a class="name">Jason Phang</a>
+<a class="name">Cheng Yang</a>
+<a class="name">Tongshuang Wu</a>
+<a class="name">Heng Ji</a>
+<a class="name">Zhiyuan Liu</a>
+<a class="name">Maosong Sun</a>.<br>
+In submission <br><a class="icon pdf label label-info" href="toollearning.pdf">pdf</a>
+</div>
